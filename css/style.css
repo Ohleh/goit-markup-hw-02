@@ -16,7 +16,6 @@ footer contact #FFFFFF + 60 %
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
-
   font-family: Roboto, VHelvetica Neue, sans-serif;
   /* font-style: normal; */
   font-size: 14px;
@@ -34,6 +33,17 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #212121;
+}
+
+.logo-studio-foot {
+  color: white;
+}
 
 .site-nav {
   /* font-style: normal; */
@@ -43,7 +53,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.contactnav {
+.contact-nav {
   /* font-style: normal; */
   font-weight: 500;
   font-size: 14px;
@@ -56,14 +66,32 @@ body {
   color: var(--accent-color);
 }
 
-.contactnav .link:hover,
-.contactnav .link:focus {
+.contact-nav .link:hover,
+.contact-nav .link:focus {
   color: var(--accent-color);
   text-decoration: none;
 }
+
+.site-nav a {
+  color: #212121;
+}
+
+.contact-nav a {
+  color: #757575;
+}
+
 /* nav end */
 
 /* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: rgba(255, 255, 255, 1);
+}
+
 .main-headline {
   color: var(--title-text-color);
   /* font-style: normal; */
@@ -87,11 +115,22 @@ body {
 }
 
 .third-headline {
-  color: var(--title-text-color);
+  color: #212121;
   /* font-style: normal; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* portfolio.html portfolio-example  */
+
+.portfolio-example {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -104,13 +143,17 @@ body {
   letter-spacing: 0.03em;
 }
 
+.our-team {
+  background-color: #f5f4fa;
+}
+
 .team-name {
   color: var(--title-text-color);
   /* font-style: normal; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
@@ -119,11 +162,15 @@ body {
   /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
-/* footer contacts */
+/* footer */
+
+.footer-section {
+  background-color: #2f303a;
+}
 
 .contactfoot {
   /* font-style: normal; */
@@ -134,29 +181,14 @@ body {
 }
 
 .contactfoot-adress {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
   font-style: normal;
 }
 
-.contactfoot-mail {
+.contactfoot {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
-
-.contactfoot-tel {
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-}
-
-
-/* portfolio.html portfolio-example  */
-
-.portfolio-example {
-  font-size: 16px;
-  line-height: 0.5;
-  letter-spacing: 0.03em;
-}
-
 
 .list {
   list-style: none;
@@ -166,5 +198,35 @@ body {
   text-decoration: none;
 }
 
-.pointer {
+/* button set */
+.button-main {
   cursor: pointer;
+  background-color: #2196f3;
+}
+
+.color-text-button {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+}
+
+/* .button-portfolio .link:hover,
+.button-portfolio .link:focus {
+  color: var(--accent-color);
+} */
+
+.button-portfolio {
+  cursor: pointer;
+  color: #212121;
+  background-color: #f5f4fa;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
