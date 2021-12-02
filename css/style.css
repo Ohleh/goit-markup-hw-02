@@ -127,12 +127,13 @@ body {
 /* portfolio.html portfolio-example  */
 
 .portfolio-example {
-  color: #757575;
-  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 0.5;
+  color: rgba(117, 117, 117, 1);
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .benefits {
@@ -221,7 +222,18 @@ body {
   background-color: var(--accent-color);
 }
 
+.buttonsportfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+
 .button-portfolio {
+  font-family: Roboto;
   cursor: pointer;
   color: #212121;
   background-color: #f5f4fa;
