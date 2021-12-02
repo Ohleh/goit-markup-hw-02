@@ -202,6 +202,7 @@ body {
 .button-main {
   cursor: pointer;
   background-color: #2196f3;
+  border: 0;
 }
 
 .color-text-button {
@@ -214,10 +215,11 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* .button-portfolio .link:hover,
-.button-portfolio .link:focus {
-  color: var(--accent-color);
-} */
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: white;
+  background-color: var(--accent-color);
+}
 
 .button-portfolio {
   cursor: pointer;
@@ -229,4 +231,5 @@ body {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
+  border: 0;
 }
